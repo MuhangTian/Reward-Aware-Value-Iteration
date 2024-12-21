@@ -1,0 +1,38 @@
+scaling_factors = {     # indexed by welfare_func_name_num_locs_p (if p exists)
+    "egalitarian_2": 25,
+    "egalitarian_3": 34,
+    "egalitarian_4": 34,
+    "egalitarian_5": 34,
+    "nash-welfare_2": 8,
+    "nash-welfare_3": 10,
+    "nash-welfare_4": 20,
+    "nash-welfare_5": 25,
+    "p-welfare-0.9_5": 10,
+    "p-welfare-0.9_4": 7,
+    "p-welfare-0.9_3": 5,
+    "p-welfare-0.9_2": 5,
+    "p-welfare-0.001_5": 33,
+    "p-welfare-0.001_4": 25,
+    "p-welfare-0.001_3": 25,
+    "p-welfare-0.001_2": 10,
+    "p-welfare-10.0_5": 10,
+    "p-welfare-10.0_4": 7,
+    "p-welfare-10.0_3": 5,
+    "p-welfare-10.0_2": 5,
+    "p-welfare--10.0_5": 50,
+    "p-welfare--10.0_4": 50,
+    "p-welfare--10.0_3": 25,
+    "p-welfare--10.0_2": 16,
+}
+linscal_weights = {
+    "2": [0.5, 0.5],
+    "3": [0.33, 0.33, 0.33],
+    "4": [0.25, 0.25, 0.25, 0.25],
+    "5": [0.2, 0.2, 0.2, 0.2, 0.2],
+}
+mixture_weights = {
+    "2": [[1,0], [0,1]],
+    "3": [[1,0,0], [0,1,0], [0,0,1]],
+    "4": [[1,0,0,0], [0,1,0,0], [0,0,1,0], [0,0,0,1]],
+    "5": [[1,0,0,0,0], [0,1,0,0,0], [0,0,1,0,0], [0,0,0,1,0], [0,0,0,0,1]],
+}
