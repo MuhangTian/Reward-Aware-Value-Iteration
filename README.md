@@ -1,5 +1,6 @@
 # Multi-objective Reinforcement Learning with Nonlinear Preferences: Provable Approximation for Maximizing Expected Scalarized Return
 [![arxiv badge](https://img.shields.io/badge/arXiv-2311.02544-red)](http://www.arxiv.org/abs/2311.02544)
+
 This repository contains the code implementation of our proposed algorithm, *Reward-Aware Value Iteration*, and the related experiments discussed in our paper. Our work is accepted by [AAMAS 2025](https://aamas2025.org/).
 
 ## Dependencies ✅
